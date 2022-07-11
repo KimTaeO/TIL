@@ -3,4 +3,4 @@
 나 자신과의 약속!! 🤙
 >☝ 최소 하루에 하나씩은 올릴 것
 
-## [SQL](https://github.com/kto328/Today-I-Learned/blob/main/SQL_Grammar/Select_Sentence.md)
+## [SQL](https://github.com/kto328/Today-I-Learned/tree/main/SQL_Grammar)
