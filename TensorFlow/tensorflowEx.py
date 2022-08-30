@@ -8,8 +8,8 @@ import numpy as np
 
 print(tf.__version__)
 
-x_data = np.array({1, 2, 3, 4, 5, 6})
-t_data = np.array({3, 4, 5, 6, 7, 8})
+x_data = np.array([1, 2, 3, 4, 5, 6])
+t_data = np.array([3, 4, 5, 6, 7, 8])
 
 model = Sequential()
 model.add(Flatten(input_shape=(1,))) # 입력층
