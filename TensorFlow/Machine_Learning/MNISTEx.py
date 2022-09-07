@@ -57,7 +57,6 @@ x_train = (x_train - 0.0) / (255.0 - 0.0)
 x_test = (x_test - 0.0) / (255.0 - 0.0)
 
 
-# 정답 데이터 원핫 인코딩 (One-Hot Encoding)
 
 t_train = tf.keras.utils.to_categorical(t_train, num_classes=10)
 
