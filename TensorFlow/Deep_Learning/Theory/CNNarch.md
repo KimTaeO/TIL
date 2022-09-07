@@ -44,9 +44,17 @@
 
         * Dropout : API로는 Dropout(rate = n)을 사용하며 학습과정중에 지정된 비율만큼 랜덤하게 Layer과 Layer 사이의 연결을 끊어서 네트워크의 과적합(overfitting)을 막는 역할을 수행함
 
+## CNN의 오버피팅을 낮추고 정확도를 높이는법
 
+* 더 많은 Layer 쌓기
+    Conv Layer가 더 중첩된 더 깊은 구조가 될 수록 성능은 크게 개선된다
 
+* 이미지 데이터 보강(Image Data Augmentation)
+    딥러닝에서는 많은 학습 데이터를 사용하면 성능을 개선시킬 수 있다
 
-    
+    기존의 이미지 데이터가 있을 때, 해당 데이터를 원본으로 하여 다양한 변형을 주고 그 데이터를 원본 파일에 포함시키면 많은 학습 데이터를 확보할 수 있다
 
-    
+* 높은 해상도(High Resolution)의 학습 데이터 확보
+    동일한 CNN구조라면 상대적으로 높은 해상도의 학습데이터를 통해서 성능을 개선시킬 수 있다
+
+* L1 Norm, L2 Norm등의 가중치 규제(Regularization), Dropout 배치 정규화(Batch Normalization) 등을 통해 성능을 개선시킬 수 있음 
