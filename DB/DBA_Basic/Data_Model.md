@@ -60,15 +60,3 @@
     * **관계의 형태**
        
         * 1:1, 1:N, N:M등이 있다.
-
-## 4.ER(Entity Relationship) 모델
-
-* ER 모델
-
-    * 개념적 데이터 모들의 가장 대표적인 것, 1976년 'Peter Chen'에 의해 제안되었다
-
-    * ER 모델은 개체, 속성, 관계, 등에 대하여 용이하게 표현할 수 있는 ER 도형(ERD; Entity Relationship Diagram)을 정의하고 있다.
-
-* ER 도형
-
-    ![ERDiagram](https://cdn.discordapp.com/attachments/951334644710776843/1000704546865164358/download.png)
