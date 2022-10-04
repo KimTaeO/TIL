@@ -9,4 +9,4 @@
         * ERD의 작업 순서 : 1. 개체 그림 -> 2. 개체 배치 -> 3. 개체 관계설정 -> 4. 관계명 기술 -> 5. 관계의 참여도 기술 -> 6. 관계필수여부
     
     * 관계필수여부
-        ![Entity-Cardinality](https://cdn.discordapp.com/attachments/951334644710776843/1022756006645739610/unknown.png)
+        ![Entity-Cardinality](https://cdn.discordapp.com/attachments/951334644710776843/1022756006645739610/unknown.png) 
