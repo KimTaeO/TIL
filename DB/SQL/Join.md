@@ -1,7 +1,7 @@
 ## Join이란
 * 두개 이상의 테이블들을 연결 또는 결합하여 데이터를 출력하는 것이다
 * 조인의 종류로는 크게 INNER, OUTER, CROSS, SELF 4가지가 있다
-### OUTER JOIN
+### INNER JOIN
 * 두 개의 테이블에서 공통된 요소들을 결합하는 것이다 SQL에서 ```JOIN```이라는 키워드는 ```INNER JOIN```을 암묵적으로 뜻한다
 
 ![InnerJoin](../../image/InnerJoin.png)
